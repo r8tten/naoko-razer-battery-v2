@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "naoko.razer-battery-v2",
+  "name": "Razer Battery V2",
+  "version": "2.0.0",
+  "author": "oko",
+  "license": "MIT",
+  "description": "Razer DeathAdder V2 Pro battery widget, redesigned layout.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Razer Battery V2",
+    "description": "DeathAdder V2 Pro battery, DPI, polling rate and firmware",
+    "category": "System",
+    "defaultSection": "right",
+    "allowMultiple": false
+  },
+  "x-shibumi": {
+    "suiteId": "naoko.razer-v2",
+    "bundle": "default",
+    "role": "R2",
+    "requires": [],
+    "recommends": []
+  }
+}
